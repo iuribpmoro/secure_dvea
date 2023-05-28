@@ -1,0 +1,2 @@
+php_value auto_prepend_file "/var/www/html/secure_dvea/auth_middleware.php"
+Header edit Set-Cookie ^(.*)$ $1;HttpOnly;Secure;SameSite=Strict

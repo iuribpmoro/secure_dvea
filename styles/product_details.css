@@ -1,0 +1,124 @@
+/* CSS for Product Details page */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0 10%;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 20px 0;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.review img {
+    display: block;
+    margin: 20px 0;
+}
+
+.review p {
+    margin: 0 0 20px;
+}
+
+.go-back {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.go-back:hover {
+    background-color: #999;
+}
+
+.product_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

